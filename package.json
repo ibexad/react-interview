@@ -5,6 +5,8 @@
     "start": "node_modules/.bin/concurrently \"yarn mock\" \"yarn react-app\""
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "axios": "^0.21.1",
     "concurrently": "5.3.0",
     "json-server": "0.16.3"
   }
